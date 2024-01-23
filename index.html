@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to your custom CSS file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Link to your favicon -->
+    <link rel="shortcut icon" href="asset/favicon.svg" type="image/x-icon" />
+    <title>CRUD - PHP</title>
+  </head>
+  <body>
+    <!-- Main container for the CRUD application -->
+    <div class="container">
+      <div class="page_title">PHP -- AJAX -- JQUERY (CRUD)</div>
+      <div class="wrapper">
+        <div id="msg"></div>
+        <!-- Display messages here (success, warning, etc.) -->
+
+        <!-- Form for adding/editing data -->
+        <div class="form-sec">
+          <form action="#" id="formData" method="post">
+            <input type="hidden" id="student_id" name="student_id" />
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter Name"
+              autocomplete="off"
+            />
+
+            <label for="roll">Roll</label>
+            <input
+              type="text"
+              id="roll"
+              name="roll"
+              placeholder="Enter Roll"
+              autocomplete="off"
+            />
+
+            <label for="department">Department</label>
+            <input
+              type="text"
+              id="department"
+              name="department"
+              placeholder="Enter Department"
+              autocomplete="off"
+            />
+
+            <input type="submit" value="Save" id="submit" name="submit" />
+          </form>
+        </div>
+
+        <!-- Table for displaying data -->
+        <div class="table-sec">
+          <table id="customers">
+            <thead>
+              <tr>
+                <th>Roll</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Include jQuery library -->
+    <script src="./js/JQuery.js"></script>
+    <!-- Include your custom AJAX script -->
+    <script src="./js/ajaxscript.js"></script>
+  </body>
+</html>

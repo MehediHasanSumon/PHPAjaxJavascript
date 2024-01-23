@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+.page_title {
+  background: #93007a;
+  padding: 30px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+label {
+  display: block;
+  font-size: 16px;
+  padding: 1px 1px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.wrapper {
+  width: 1215px;
+  margin: auto;
+  overflow: hidden;
+  padding: 5px;
+  border: 1px solid #c2c2c2;
+}
+input {
+  display: block;
+  margin: 3px 0px;
+  border: 1px solid #e2e2e2;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  color: #000;
+}
+input[type="submit"] {
+  background: #036dfe;
+  color: #fff;
+  width: unset;
+  border: none;
+  cursor: pointer;
+  padding: 7px 37px;
+  transition: all 0.3s;
+}
+input[type="submit"]:hover {
+  background: #033985;
+}
+.form-sec {
+  width: 350px;
+  float: left;
+  margin-right: 13px;
+}
+
+.table-sec {
+  width: 840px;
+  float: left;
+}
+.success {
+  background: #1f8abd;
+  color: #ffff;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.wraning {
+  background: #dc3545;
+  color: #ffff;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+input#btn-edit {
+  padding: 5px 10px;
+  background: green;
+  display: inline;
+}
+
+input#btn-delete {
+  display: inline;
+  padding: 5px 10px;
+  background: red;
+}
+.btn-edit {
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  background: #01b501;
+  display: inline;
+  margin-right: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-delete {
+  color: #fff;
+  border: none;
+  display: inline;
+  padding: 5px 10px;
+  background: #ed3232e8;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-edit:hover {
+  background: #037503;
+}
+
+.btn-delete:hover {
+  background: #ac0808e8;
+}
