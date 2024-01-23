@@ -22,7 +22,7 @@ CREATE TABLE `students` (
 4. Web Server: Clone this repository into the htdocs directory of your XAMPP installation.
 
 ```bash
-https://github.com/MehediHasanSumon/PHPAjaxJavascript.git
+git clone https://github.com/MehediHasanSumon/PHPAjaxJavascript.git
 ```
 
 ## Project Structure
